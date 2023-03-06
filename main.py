@@ -1,6 +1,4 @@
-from datetime import date
 from prefect import Flow, task, Parameter
-
 
 @task
 def read_file(path):
