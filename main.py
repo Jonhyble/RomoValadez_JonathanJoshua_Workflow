@@ -4,7 +4,7 @@ from prefect import Flow, task, Parameter
 
 @task
 def read_file(path):
-    archivo = open("texto.txt", "r")
+    archivo = open(path, "r")
     return archivo
 
 
